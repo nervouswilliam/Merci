@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Merci</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
+</head>
+<body>
+
+<header>
+    <div class = "Merci">
+        <Merci>
+            <a href = "./home.html">Merci</a>
+        </Merci>
+    </div>
+    <div class = "choices">
+        <nav>
+            <ul>
+                <li><a href = "./home.html">Home</a></li>
+                <li><a href = "./shop.html">Shop</a></li>
+                <li><a href = "./sell.html">Sell</a></li>
+                <li><a href = "./About.html">About Merci</a></li>
+                <li><a href = "./Subscribe.html">Subscribe</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class = buyNow>
+    Payment
+</div>
+<div class = container>
+    <form action = "./ThankYou.html" onsubmit = "return validatePaymentForm()">
+        Name
+        <input type = "text" placeholder = "Full Name" name = "" id = "full-name">
+        Email
+        <input type = "text" placeholder = "Email Address" name = "" id = "Email-address">
+        Address
+        <input type = "text" placeholder = "Address" name = "" id = "Address">
+        Phone Number
+        <input type = "number" placeholder = "Phone Number" name = "" id = "Phone-Number">
+        Credit card
+        <input type = "number" placeholder = "credit card number" name = "" id = "Credit-card">
+        CVV
+        <input type = "number" placeholder = "CVV" name = "" id = "CVV">
+        <div>
+            <input type = "checkbox" name = "" id = "agree-terms">
+            I agree to all terms
+        </div>
+        <input type = "submit" value = "Pay">
+    </form>
+    <div id = errorMSG>
+        
+    </div>
+</div>
+<script src = "./buy.js"></script>
+<div class = "footer">
+    <ul>
+        <li><a href = "./About.html">About Merci</a></li>
+        <li><a href = "./shop.html">Shop</a></li>
+        <li><a href = "./sell.html">Sell</a></li>
+        <li><a href = "./Subscribe.html">Subscribe</a></li>
+    </ul>
+</div>

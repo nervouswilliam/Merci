@@ -1,0 +1,1318 @@
+/*home.html*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    flex: 1;
+    text-align: center;
+    
+}
+nav ul{
+    display: block;
+    list-style-type: none;
+    padding: 80px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 200px;
+}
+nav ul li a{
+    font-family: 'product-sans';
+    color: black;
+    text-decoration: none;
+    font-size: 27px;
+    z-index: 2;
+}
+.footer{
+    position:absolute;
+    height: 400px;
+    width: 100%;
+    background-color: lightgrey;
+    text-align:center;
+    top: 1100px;
+}
+.footer ul{
+    display: block;
+    list-style-type: none;
+    padding: 20px;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 200px;
+    padding-right: 150px;
+}
+.footer ul li a{
+    color: black;
+    font-family: "product-sans";
+    font-size: 27px;
+    text-decoration: none;
+}
+Merci{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 28px;
+    top: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+Merci a{
+    color: red;
+    text-decoration: none;
+}
+.slogan{
+    position: absolute;
+    right: 1250px;
+    top: 300px;
+    font-size: 50px;
+    color: black;
+}
+.logo img{
+    position: absolute;
+    width: 2%;
+    height: auto;
+    margin-left: 9%;
+}
+.instagram a{
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left: 12%;
+    margin-top: 0.4%;
+}
+.logo2 img{
+    position: absolute;
+    width: 2%;
+    height: auto;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+.twitter a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 12%;
+    margin-top: 2.3%;
+}
+.discover{
+    position: absolute;
+    right: 1590px;
+    top: 460px;
+    font-size: 16px;
+    outline: red;
+    background: red;
+    border-radius: 10px;
+    padding: 10px
+}
+.discover a{
+    text-decoration : none;
+    color: white;
+}
+.porsche img{
+    position: absolute;
+    right: 200px;
+    top: 250px;
+    width: 600px;
+    height: auto;
+    z-index: 2;
+}
+.backgroundImg img{
+    position: absolute;
+    right: 200px;
+    top: 150px;
+    width: 2000;
+    height: auto;
+    z-index: 1;
+}
+.name1{
+    position: absolute;
+    right: 1500px;
+    top: 920px;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.car1 img{
+    position: absolute;
+    right: 1330px;
+    top: 700px;
+    width: 380px;
+    height: 200px;
+}
+.overlay{
+    position: absolute;
+    right: 1330px;
+    top: 700px;
+    width: 380px;
+    height: 200px;
+    background: lightgrey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.price1{
+    position: absolute;
+    right: 1550px;
+    top: 950px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.year1{
+    position: absolute;
+    right: 1670px;
+    top: 900px;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.SLearn{
+    position: absolute;
+    right:1610px;
+    top: 980px;
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+}
+.SLearn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+/*supra.html*/
+.supraP img{
+    position: absolute;
+    right: 450px;
+    top: 200px;
+    width: 1000px;
+    height: auto
+}
+.SPyear{
+    position: absolute;
+    right: 1385px;
+    top: 770px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.SPname{
+    position: absolute;
+    right: 1150px;
+    top: 800px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.SPprice{
+    position: absolute;
+    right:1207px;
+    top: 840px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.SPdetail{
+    position: absolute;
+    top: 880px;
+    right: 465px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.SPBuy{
+    position: absolute;
+    top: 770px;
+    right: 450px;
+    padding:20px;
+    background: red;
+    border-radius: 10px;
+}
+.SPBuy a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.car2 img{
+    position: absolute;
+    right: 800px;
+    top: 700px;
+    width: 350px;
+    height: 200px;
+}
+.overlay2{
+    position: absolute;
+    right: 800px;
+    top: 700px;
+    width: 350px;
+    height: 200px;
+    background: lightgrey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.overlay2:hover{
+    opacity: 1;
+}
+.year2{
+    position: absolute;
+    right: 1110px;
+    top: 900px;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name2{
+    position: absolute;
+    right: 1050px;
+    top: 920px;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.price2{
+    position: absolute;
+    right: 990px;
+    top: 950px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.TLearn{
+    position: absolute;
+    right:1050px;
+    top: 980px;
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+}
+.TLearn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.car3 img{
+    position: absolute;
+    right: 200px;
+    top: 700px;
+    width: 350px;
+    height: 200px;
+    z-index: 2;
+}
+.overlay3{
+    position: absolute;
+    right: 200px;
+    top: 700px;
+    width: 350px;
+    height: 200px;
+    background: lightgrey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+    z-index: 3;
+}
+.overlay3:hover{
+    opacity: 1;
+    z-index: 3;
+}
+.year3{
+    position: absolute;
+    right: 510px;
+    top: 900px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 2;
+}
+.name3{
+    position: absolute;
+    right: 425px;
+    top:920px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 2;
+}
+.price3{
+    position: absolute;
+    right: 405px;
+    top: 950px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.NLearn{
+    position: absolute;
+    right:450px;
+    top: 980px;
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+    z-index: 2;
+}
+.NLearn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+/*toyota.html*/
+.toyotaP img{
+    position: absolute;
+    right: 450px;
+    top: 200px;
+    width: 1000px;
+    height: auto
+}
+.TPyear{
+    position: absolute;
+    right: 1385px;
+    top: 870px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.TPname{
+    position: absolute;
+    right: 1307px;
+    top: 900px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.TPprice{
+    position: absolute;
+    right:1207px;
+    top: 940px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.TPdetail{
+    position: absolute;
+    top: 980px;
+    right: 950px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.TPBuy{
+    position: absolute;
+    top: 870px;
+    right: 450px;
+    padding:20px;
+    background: red;
+    border-radius: 10px;
+}
+.TPBuy a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*nissan.html*/
+.nissanP img{
+    position: absolute;
+    right: 450px;
+    top: 200px;
+    width: 1000px;
+    height: auto
+}
+.NPyear{
+    position: absolute;
+    right: 1385px;
+    top: 800px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.NPname{
+    position: absolute;
+    right: 1265px;
+    top: 830px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.NPprice{
+    position: absolute;
+    right:1237px;
+    top: 870px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.NPdetail{
+    position: absolute;
+    top: 910px;
+    right: 740px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.NPBuy{
+    position: absolute;
+    top: 810px;
+    right: 450px;
+    padding:20px;
+    background: red;
+    border-radius: 10px;
+}
+.NPBuy a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Shop.html*/
+.mercedes img{
+    position: absolute;
+    right:700px;
+    top: 200px;
+    height: 200px;
+    width: auto;
+}
+.Moverlay{
+    position: absolute;
+    right: 700px;
+    top: 200px;
+    width: 300px;
+    height: 200px;
+    background: lightgrey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.Moverlay:hover{
+    opacity: 1;
+}
+.Myear{
+    position: absolute;
+    right: 960px;
+    top: 400px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Mname{
+    position:absolute;
+    right: 795px;
+    top: 420px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MPrice{
+    position: absolute;
+    right: 840px;
+    top: 450px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MLearn{
+    position: absolute;
+    right:899px;
+    top: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+}
+.MLearn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.bmw img{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    width: auto;
+    height: 200px;
+}
+.Boverlay{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    width: auto;
+    height: 200px;
+    background: lightgrey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.Boverlay:hover{
+    opacity: 1;
+}
+.Byear{
+    position: absolute;
+    right: 425px;
+    top: 400px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Bname{
+    position: absolute;
+    right: 225px;
+    top: 420px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Bprice{
+    position: absolute;
+    right:310px;
+    top: 450px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Blearn{
+    position: absolute;
+    right: 365px;
+    top: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+}
+.Blearn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.audi img{
+    position: absolute;
+    right: 200px;
+    top: 600px;
+    width: auto;
+    height: 200px;
+}
+.Aoverlay{
+    position: absolute;
+    right: 200px;
+    top: 600px;
+    width: 280px;
+    height: 200px;
+    background: lightgrey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.Aoverlay:hover{
+    opacity: 1;
+}
+.Ayear{
+    position: absolute;
+    right: 440px;
+    top: 800px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Aname{
+    position: absolute;
+    right: 400px;
+    top: 820px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Aprice{
+    position: absolute;
+    right:320px;
+    top: 850px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Alearn{
+    position: absolute;
+    right: 375px;
+    top: 900px;
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+}
+.Alearn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.aston img{
+    position: absolute;
+    right: 1200px;
+    top: 200px;
+    width: 320px;
+    height: 200px;
+}
+.AMoverlay{
+    position: absolute;
+    right: 1200px;
+    top: 200px;
+    width: 320px;
+    height: 200px;
+    background: lightgrey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.AMoverlay:hover{
+    opacity: 1;
+}
+.AMyear{
+    position: absolute;
+    right: 1480px;
+    top: 400px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.AMname{
+    position: absolute;
+    right: 1320px;
+    top: 420px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.AMprice{
+    position: absolute;
+    right:1360px;
+    top: 450px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.AMlearn{
+    position: absolute;
+    right: 1420px;
+    top: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+}
+.AMlearn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.jaguar img{
+    position: absolute;
+    right: 1200px;
+    top: 600px;
+    width: 320px;
+    height: 200px;
+}
+.Joverlay{
+    position: absolute;
+    right: 1200px;
+    top: 600px;
+    width: 320px;
+    height: 200px;
+    background: lightgrey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.Joverlay:hover{
+    opacity: 1;
+}
+.Jyear{
+    position: absolute;
+    right: 1480px;
+    top: 800px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Jname{
+    position: absolute;
+    right: 1250px;
+    top: 820px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Jprice{
+    position: absolute;
+    right:1360px;
+    top: 850px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Jlearn{
+    position: absolute;
+    right: 1420px;
+    top: 900px;
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+}
+.Jlearn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.bmwi8 img{
+    position: absolute;
+    right: 680px;
+    top: 600px;
+    width: 320px;
+    height: 200px;
+}
+.BMoverlay{
+    position: absolute;
+    right: 680px;
+    top: 600px;
+    width: 320px;
+    height: 200px;
+    background: lightgrey;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+}
+.BMoverlay:hover{
+    opacity: 1;
+}
+.BMyear{
+    position: absolute;
+    right: 960px;
+    top: 800px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BMname{
+    position: absolute;
+    right: 819px;
+    top: 820px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BMprice{
+    position: absolute;
+    right:840px;
+    top: 850px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BMlearn{
+    position: absolute;
+    right: 899px;
+    top: 900px;
+    padding: 10px;
+    border-radius: 10px;
+    background: red;
+}
+.BMlearn a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+/*Learn More*/
+/*AstonMartin.html*/
+.astonP img{
+    position: absolute;
+    right: 450px;
+    top: 200px;
+    width: 1000px;
+    height: auto
+}
+.AMPyear{
+    position: absolute;
+    right: 1385px;
+    top: 960px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.AMPname{
+    position: absolute;
+    right: 1167px;
+    top: 990px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.AMPprice{
+    position: absolute;
+    right:1210px;
+    top: 1030px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.AMPdetail{
+    position: absolute;
+    top: 1070px;
+    right: 970px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.AMPBuy{
+    position: absolute;
+    top: 970px;
+    right: 450px;
+    padding:20px;
+    background: red;
+    border-radius: 10px;
+}
+.AMPBuy a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*mercedes.html*/
+.mp img{
+    position: absolute;
+    right: 350px;
+    top: 200px;
+    width: 1100px;
+    height: auto
+}
+.mpYear{
+    position: absolute;
+    right: 1385px;
+    top: 960px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mpName{
+    position: absolute;
+    right: 1140px;
+    top: 990px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mpPrice{
+    position: absolute;
+    right:1210px;
+    top: 1030px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.mpDetail{
+    position: absolute;
+    top: 1070px;
+    right: 970px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.mpBuy{
+    position: absolute;
+    top: 970px;
+    right: 350px;
+    padding:20px;
+    background: red;
+    border-radius: 10px;
+}
+.mpBuy a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*bmw.html*/
+.bmwP img{
+    position: absolute;
+    right: 450px;
+    top: 200px;
+    width: 1000px;
+    height: auto
+}
+.BMPyear{
+    position: absolute;
+    right: 1385px;
+    top: 960px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BMPname{
+    position: absolute;
+    right: 1105px;
+    top: 990px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BMPprice{
+    position: absolute;
+    right:1210px;
+    top: 1030px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.BMPdetail{
+    position: absolute;
+    top: 1070px;
+    right: 970px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.BMPBuy{
+    position: absolute;
+    top: 970px;
+    right: 450px;
+    padding:20px;
+    background: red;
+    border-radius: 10px;
+}
+.BMPBuy a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Jaguar.html*/
+.jaguarP img{
+    position: absolute;
+    right: 450px;
+    top: 200px;
+    width: 1000px;
+    height: auto
+}
+.JPyear{
+    position: absolute;
+    right: 1385px;
+    top: 960px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.JPname{
+    position: absolute;
+    right: 1077px;
+    top: 990px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.JPprice{
+    position: absolute;
+    right:1215px;
+    top: 1030px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.JPdetail{
+    position: absolute;
+    top: 1070px;
+    right: 970px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.JPBuy{
+    position: absolute;
+    top: 970px;
+    right: 450px;
+    padding:20px;
+    background: red;
+    border-radius: 10px;
+}
+.JPBuy a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*bmwi8.html*/
+.bmwi8P img{
+    position: absolute;
+    right: 450px;
+    top: 200px;
+    width: 1000px;
+    height: auto
+}
+.BPyear{
+    position: absolute;
+    right: 1385px;
+    top: 870px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BPname{
+    position: absolute;
+    right: 1335px;
+    top: 900px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.BPprice{
+    position: absolute;
+    right:1215px;
+    top: 940px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.BPdetail{
+    position: absolute;
+    top: 980px;
+    right: 777px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.BPBuy{
+    position: absolute;
+    top: 870px;
+    right: 450px;
+    padding:20px;
+    background: red;
+    border-radius: 10px;
+}
+.BPBuy a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*AUDI.html*/
+.audiP img{
+    position: absolute;
+    right: 450px;
+    top: 200px;
+    width: 1000px;
+    height: auto
+}
+.APyear{
+    position: absolute;
+    right: 1385px;
+    top: 910px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.APname{
+    position: absolute;
+    right: 1335px;
+    top: 940px;
+    font-size: 34px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.APprice{
+    position: absolute;
+    right:1210px;
+    top: 977px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.APdetail{
+    position: absolute;
+    top: 1020px;
+    right: 805px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.APBuy{
+    position: absolute;
+    top: 920px;
+    right: 450px;
+    padding:20px;
+    background: red;
+    border-radius: 10px;
+}
+.APBuy a{
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*buy.html*/
+.buyNow{
+    position: absolute;
+    padding: 20px;
+    right: 890px;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%
+}
+input{
+    padding: 5px;
+    margin: 2px 0px 8px 0px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+input[type = "submit"]{
+    background-color: red;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#errorMSG{
+    color: red;
+}
+/*\ThankYou.html*/
+.thankyou{
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    top: 300px;
+    right: 500px;
+}
+.cars img{
+    position: absolute;
+    width: auto;
+    height: 200px;
+    top: 500px;
+    right: 670px
+}
+/*sell.html*/
+.sell-car{
+    position: absolute;
+    padding: 20px;
+    right: 750px;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%
+}
+input{
+    padding: 5px;
+    margin: 2px 0px 8px 0px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+input[type = "submit"]{
+    background-color: red;
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#errorMSG{
+    color: red;
+}
+/*about.html*/
+.title{
+    position: absolute;
+    top: 200px;
+    right: 1500px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.bg img{
+    position: absolute;
+    height: 400px;
+    width: auto;
+    right: 100px;
+}
+.about{
+    position: absolute;
+    top: 300px;
+    right: 1350px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.achievement{
+    position: absolute;
+    top: 350px;
+    right: 1180px;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red
+}
+.category{
+    position: absolute;
+    top: 480px;
+    right: 1725px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sales{
+    position: absolute;
+    top: 600px;
+    right: 1255px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.patron{
+    position: absolute;
+    top: 650px;
+    right: 1235px;
+    font-size: 83px;
+    color: red;
+}
+/*subscribe.html*/
+.subscribe{
+	position: absolute;
+	padding: 20px;
+	right: 740px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 50px;
+    color : red;
+}
+.container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 150px;
+    margin-left:5px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+input{
+	padding: 5px;
+	margin: 2px 0px 8px 0px;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+input[type=submit]{
+	background-color: red;
+	color: white;
+	border: none;
+	font-family: 'sans serif';
+	cursor: pointer;
+}

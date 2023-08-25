@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Merci</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
+</head>
+<body>
+
+<header>
+    <div class = "Merci">
+        <Merci>
+            <a href = "./home.html">Merci</a>
+        </Merci>
+    </div>
+    <div class = "choices">
+        <nav>
+            <ul>
+                <li><a href = "./home.html">Home</a></li>
+                <li><a href = "./shop.html">Shop</a></li>
+                <li><a href = "./sell.html">Sell</a></li>
+                <li><a href = "./About.html">About Merci</a></li>
+                <li><a href = "./Subscribe.html">Subscribe</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class = subscribe>
+    Become part of
+    <br> our community
+</div>
+
+<div class = container>
+    <form action = "./main.html" onsubmit = "return validateForm()">
+        Name
+        <input type = "text" placeholder = "Full Name" name = "" id = "name">
+        Email
+        <input type = "text" placeholder = "Email Address" name = "" id = "email">
+        Phone Number
+        <input type = "number" placeholder = "Phone Number" name = "" id = "phone">
+        <div>
+            <input type = "checkbox" name = "" id = "receive-newsletter">
+            I agree to receive newsletter
+        </div>
+        <input type = "submit" value = "register">
+    </form>
+    <div id = errorMSG>
+        
+    </div>
+
+</div>
+<script src = "./Subscribe.js"></script>
+<div class = "footer">
+    <ul>
+        <li><a href = "./About.html">About Merci</a></li>
+        <li><a href = "./shop.html">Shop</a></li>
+        <li><a href = "./sell.html">Sell</a></li>
+        <li><a href = "./Subscribe.html">Subscribe</a></li>
+    </ul>
+</div>
+
